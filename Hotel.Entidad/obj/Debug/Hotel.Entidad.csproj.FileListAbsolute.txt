@@ -2,3 +2,8 @@ C:\Users\Martín\Documents\HotelArbol\Hotel.Entidad\bin\Debug\Hotel.Entidad.dll
 C:\Users\Martín\Documents\HotelArbol\Hotel.Entidad\bin\Debug\Hotel.Entidad.pdb
 C:\Users\Martín\Documents\HotelArbol\Hotel.Entidad\obj\Debug\Hotel.Entidad.dll
 C:\Users\Martín\Documents\HotelArbol\Hotel.Entidad\obj\Debug\Hotel.Entidad.pdb
+C:\Users\MjCv\Source\Repos\Paradise\Hotel.Entidad\bin\Debug\Hotel.Entidad.dll
+C:\Users\MjCv\Source\Repos\Paradise\Hotel.Entidad\bin\Debug\Hotel.Entidad.pdb
+C:\Users\MjCv\Source\Repos\Paradise\Hotel.Entidad\obj\Debug\Hotel.Entidad.csprojResolveAssemblyReference.cache
+C:\Users\MjCv\Source\Repos\Paradise\Hotel.Entidad\obj\Debug\Hotel.Entidad.dll
+C:\Users\MjCv\Source\Repos\Paradise\Hotel.Entidad\obj\Debug\Hotel.Entidad.pdb
