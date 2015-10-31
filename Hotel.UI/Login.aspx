@@ -7,11 +7,16 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title>Login Paradise</title>
     <link href="css/csslogin.css" rel="stylesheet" />
+    <script src="JSN/jslogin.js"></script>
+    <link href="css/bootstrap.css" rel="stylesheet" />
+   <%-- <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>--%>
+    <script src="css/jquery.js"></script>
 </head>
 <body>
     <form id="form1" runat="server">
     <div>
     <script src="http://mymaplist.com/js/vendor/TweenLite.min.js"></script>
+
 <!-- This is a very simple parallax effect achieved by simple CSS 3 multiple backgrounds, made by http://twitter.com/msurguy -->
 
 <div class="container">
