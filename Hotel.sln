@@ -1,6 +1,8 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hotel.UI", "Hotel.UI\Hotel.UI.csproj", "{57425891-AA74-4BB1-B37F-4E779AF7B235}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hotel.Entidad", "Hotel.Entidad\Hotel.Entidad.csproj", "{A731F205-132A-49DA-8170-485258874FFA}"
@@ -8,6 +10,11 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hotel.Datos", "Hotel.Datos\Hotel.Datos.csproj", "{BC8D3B00-8485-408E-8C01-69A77D3E9E48}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hotel.Negocio", "Hotel.Negocio\Hotel.Negocio.csproj", "{06780BBC-2830-44E1-9CAE-D7984E2E6FC5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Hotel.db", "Hotel.db", "{C95C5105-053F-41EA-A285-1589BE25D24A}"
+	ProjectSection(SolutionItems) = preProject
+		..\script.sql = ..\script.sql
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -5,3 +5,17 @@ C:\Users\Martín\Documents\HotelArbol\Hotel.Datos\bin\Debug\Hotel.Entidad.dll
 C:\Users\Martín\Documents\HotelArbol\Hotel.Datos\bin\Debug\Hotel.Entidad.pdb
 C:\Users\Martín\Documents\HotelArbol\Hotel.Datos\obj\Debug\Hotel.Datos.dll
 C:\Users\Martín\Documents\HotelArbol\Hotel.Datos\obj\Debug\Hotel.Datos.pdb
+C:\Users\MjCv\Source\Repos\Paradise\Hotel.Datos\bin\Debug\Hotel.Datos.dll
+C:\Users\MjCv\Source\Repos\Paradise\Hotel.Datos\bin\Debug\Hotel.Datos.pdb
+C:\Users\MjCv\Source\Repos\Paradise\Hotel.Datos\bin\Debug\Hotel.Entidad.dll
+C:\Users\MjCv\Source\Repos\Paradise\Hotel.Datos\bin\Debug\Hotel.Entidad.pdb
+C:\Users\MjCv\Source\Repos\Paradise\Hotel.Datos\obj\Debug\Hotel.Datos.csprojResolveAssemblyReference.cache
+C:\Users\MjCv\Source\Repos\Paradise\Hotel.Datos\obj\Debug\Hotel.Datos.dll
+C:\Users\MjCv\Source\Repos\Paradise\Hotel.Datos\obj\Debug\Hotel.Datos.pdb
+C:\Users\Martín\Documents\Paradise\Hotel.Datos\bin\Debug\Hotel.Datos.dll
+C:\Users\Martín\Documents\Paradise\Hotel.Datos\bin\Debug\Hotel.Datos.pdb
+C:\Users\Martín\Documents\Paradise\Hotel.Datos\bin\Debug\Hotel.Entidad.dll
+C:\Users\Martín\Documents\Paradise\Hotel.Datos\bin\Debug\Hotel.Entidad.pdb
+C:\Users\Martín\Documents\Paradise\Hotel.Datos\obj\Debug\Hotel.Datos.csprojResolveAssemblyReference.cache
+C:\Users\Martín\Documents\Paradise\Hotel.Datos\obj\Debug\Hotel.Datos.dll
+C:\Users\Martín\Documents\Paradise\Hotel.Datos\obj\Debug\Hotel.Datos.pdb
