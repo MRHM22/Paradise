@@ -1,0 +1,9 @@
+C:\Users\Martín\Documents\HotelArbol\Hotel.Negocio\bin\Debug\Hotel.Negocio.dll
+C:\Users\Martín\Documents\HotelArbol\Hotel.Negocio\bin\Debug\Hotel.Negocio.pdb
+C:\Users\Martín\Documents\HotelArbol\Hotel.Negocio\bin\Debug\Hotel.Datos.dll
+C:\Users\Martín\Documents\HotelArbol\Hotel.Negocio\bin\Debug\Hotel.Entidad.dll
+C:\Users\Martín\Documents\HotelArbol\Hotel.Negocio\bin\Debug\Hotel.Datos.pdb
+C:\Users\Martín\Documents\HotelArbol\Hotel.Negocio\bin\Debug\Hotel.Entidad.pdb
+C:\Users\Martín\Documents\HotelArbol\Hotel.Negocio\obj\Debug\Hotel.Negocio.csprojResolveAssemblyReference.cache
+C:\Users\Martín\Documents\HotelArbol\Hotel.Negocio\obj\Debug\Hotel.Negocio.dll
+C:\Users\Martín\Documents\HotelArbol\Hotel.Negocio\obj\Debug\Hotel.Negocio.pdb

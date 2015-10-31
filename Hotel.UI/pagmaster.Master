@@ -1,0 +1,199 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="pagmaster.master.cs" Inherits="Hotel.UI.pagmaster" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title>Hola Belleza</title>
+    <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+    <!-- jQuery (necessary JavaScript plugins) -->
+    <script src="js/bootstrap.js"></script>
+    <!-- Custom Theme files -->
+    <link href="css/style.css" rel='stylesheet' type='text/css' />
+    <!-- Custom Theme files -->
+    <!--//theme-style-->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="Flooring Responsive web template, Bootstrap Web Templates, Flat Web Templates, Andriod Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyErricsson, Motorola web design" />
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+
+    <script src="js/jquery.min.js"></script>
+    <!--/animated-css-->
+    <script type="text/javascript" src="js/move-top.js"></script>
+    <script type="text/javascript" src="js/easing.js"></script>
+    <!--/script-->
+    <script type="text/javascript">
+        jQuery(document).ready(function ($) {
+          
+        });
+    </script>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div class="top-header">
+            <div class="container">
+                <nav class="navbar navbar-default">
+                    <div class="container-fluid">
+                        <!-- Brand and toggle get grouped for better mobile display -->
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <div class="logo">
+                                <h1><a href="index.aspx"><span class="glyphicon glyphicon-asterisk" aria-hidden="true"></span>Flooring</a></h1>
+                            </div>
+                            <%--<form class="navbar-form navbar-left search" role="search">
+                                <div class="form-group">
+                                    <button type="submit" class="btn btn-default" aria-label="Left Align">
+                                        <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                                    </button>
+                                    <input type="text" class="form-control" placeholder="Search">
+                                </div>
+                            </form>--%>
+                        </div>
+                        <!-- Collect the nav links, forms, and other content for toggling -->
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                            <ul class="nav navbar-nav navbar-right">
+                                <li class="active"><a href="index.aspx">Home</a></li>
+                                <li><a class="scroll" href="index.aspx#services">Servicios</a></li>
+                                <li><a href="reservacion.aspx">Reservación</a></li>
+                                <li><a href="gallery.aspx" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Galería<span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="gallery.aspx#Hotel">Hotel</a></li>
+                                        <li><a href="gallery.aspx#Habitaciones">Habitaciones</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="contact.aspx">Mail</a></li>
+                                <li><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About<span class="caret"></span></a>
+                                    <ul class="dropdown-menu">
+                                        <li><a href="about.aspx">about1</a></li>
+                                        <li><a href="about.aspx">about2</a></li>
+                                        <li><a href="about.aspx">about3</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- /.navbar-collapse -->
+                    </div>
+                    <!-- /.container-fluid -->
+                </nav>
+            </div>
+        </div>
+        <script src="js/responsiveslides.min.js"></script>
+        <script>
+            $(function () {
+                $("#slider").responsiveSlides({
+                    auto: false,
+                    nav: false,
+                    speed: 500,
+                    namespace: "callbacks",
+                    pager: true,
+                });
+            });
+
+        </script>
+        <!--Aqui le comento esto
+       <div class="header-slider">
+            <div class="slider">
+                <div class="callbacks_container">
+                    <ul class="rslides" id="slider">
+                        <div class="slid banner1">
+                            <div class="caption">
+                                <h3>Donec ut turpis sit amet enim mattis commodo velit.</h3>
+                                <p>FOURNIER Timber carefully selects from a wide range of quality hardwoods to customers exact requirements which minimises wastage.</p>
+                                <a class="hvr-bounce-to-right btn-left" href="#">Click</a>
+                                <a class="hvr-bounce-to-left  btn-right" href="#">learn more</a>
+                            </div>
+                        </div>
+                        <div class="slid banner2">
+                            <div class="caption">
+                                <h3>Donec ut turpis sit amet enim mattis commodo velit.</h3>
+                                <p>FOURNIER Timber carefully selects from a wide range of quality hardwoods to customers exact requirements which minimises wastage.</p>
+                                <a class="hvr-bounce-to-right btn-left" href="#">Click</a>
+                                <a class="hvr-bounce-to-left  btn-right" href="#">learn more</a>
+                            </div>
+                        </div>
+                        <div class="slid banner3">
+                            <div class="caption">
+                                <h3>Donec ut turpis sit amet enim mattis commodo velit.</h3>
+                                <p>FOURNIER Timber carefully selects from a wide range of quality hardwoods to customers exact requirements which minimises wastage.</p>
+                                <a class="hvr-bounce-to-right btn-left" href="#">Click</a>
+                                <a class="hvr-bounce-to-left  btn-right" href="#">learn more</a>
+                            </div>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </div> 
+        
+        -->
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        <div class="footer">
+            <div class="container">
+                <div class="footer-grids">
+                    <div class="col-md-6 ftr-grid1">
+                        <h4>About</h4>
+                        <p>Nam ac interdum dui, eget iaculis augue. Cras sagittis orci leo, quis luctus diam sollicitudin in. Nullam in convallis sem. Aliquam erat felis, iaculis ac semper et, congue feugiat nibh. Nullam commodo fermentum venenatis.</p>
+                        <div class="social">
+                            <ul>
+                                <li><a href="#"><i class="facebok"></i></a></li>
+                                <li><a href="#"><i class="twiter"></i></a></li>
+                                <li><a href="#"><i class="in"></i></a></li>
+                                <li><a href="#"><i class="goog"></i></a></li>
+                                <div class="clearfix"></div>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-6 news-ltr">
+                        <h4>Newsletter</h4>
+                        <p>Aenean sagittis est eget elit pulvinar cursus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus non purus at risus consequat finibus.</p>
+                        <form>
+                            <input type="text" class="text" value="Enter Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Enter Email';}" />
+                            <input type="submit" value="Subscribe" />
+                            <div class="clearfix"></div>
+                        </form>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        </div>
+        <div class="copywrite">
+            <div class="container">
+                <p>© 2015 Flooring. All rights reserved | Design by <a href="http://w3layouts.com/">W3layouts</a></p>
+            </div>
+        </div>
+        <!---->
+
+        <script type="text/javascript">
+            $(document).ready(function () {
+                /*
+                var defaults = {
+                containerID: 'toTop', // fading element id
+                containerHoverID: 'toTopHover', // fading element hover id
+                scrollSpeed: 1200,
+                easingType: 'linear' 
+                };
+                */
+                $().UItoTop({ easingType: 'easeOutQuart' });
+            });
+        </script>
+        <a href="#to-top" id="toTop" style="display: block;"><span id="toTopHover" style="opacity: 1;"></span></a>
+        <!---->
+        <!-- Bootstrap core JavaScript
+    ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="js/bootstrap.js"></script>
+    </form>
+</body>
+</html>

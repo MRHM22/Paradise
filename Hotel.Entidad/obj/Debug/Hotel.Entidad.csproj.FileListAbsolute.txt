@@ -1,0 +1,4 @@
+C:\Users\Martín\Documents\HotelArbol\Hotel.Entidad\bin\Debug\Hotel.Entidad.dll
+C:\Users\Martín\Documents\HotelArbol\Hotel.Entidad\bin\Debug\Hotel.Entidad.pdb
+C:\Users\Martín\Documents\HotelArbol\Hotel.Entidad\obj\Debug\Hotel.Entidad.dll
+C:\Users\Martín\Documents\HotelArbol\Hotel.Entidad\obj\Debug\Hotel.Entidad.pdb
