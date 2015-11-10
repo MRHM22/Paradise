@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Hola Belleza" Language="C#" MasterPageFile="~/pagmaster.Master" AutoEventWireup="true" CodeBehind="index.aspx.cs" Inherits="Hotel.UI.index" %>
+﻿<%@ Page Title="Paradise" Language="C#" MasterPageFile="~/pagmaster.Master" AutoEventWireup="true" CodeBehind="index.aspx.cs" Inherits="Hotel.UI.index" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 
 
@@ -12,26 +12,26 @@
                     <ul class="rslides" id="slider">
                         <div class="slid banner1">
                             <div class="caption">
-                                <h3>Donec ut turpis sit amet enim mattis commodo velit.</h3>
-                                <p>FOURNIER Timber carefully selects from a wide range of quality hardwoods to customers exact requirements which minimises wastage.</p>
-                                <a class="hvr-bounce-to-right btn-left" href="#">Click</a>
-                                <a class="hvr-bounce-to-left  btn-right" href="#">learn more</a>
+                                <h3>Bienvenido al Hotel Paradise</h3>
+                                <p>Puede encontrar las mejores habitaciones de la peninsula de Nicoya</p>
+                                <%--<a class="hvr-bounce-to-right btn-left" href="#">Click</a>
+                                <a class="hvr-bounce-to-left  btn-right" href="#">learn more</a>--%>
                             </div>
                         </div>
                         <div class="slid banner2">
                             <div class="caption">
-                                <h3>Donec ut turpis sit amet enim mattis commodo velit.</h3>
-                                <p>FOURNIER Timber carefully selects from a wide range of quality hardwoods to customers exact requirements which minimises wastage.</p>
-                                <a class="hvr-bounce-to-right btn-left" href="#">Click</a>
-                                <a class="hvr-bounce-to-left  btn-right" href="#">learn more</a>
+                                <h3>Bienvenido al Hotel Paradise</h3>
+                                <p>Puede encontrar las mejores habitaciones de la peninsula de Nicoya</p>
+                                <%--<a class="hvr-bounce-to-right btn-left" href="#">Click</a>
+                                <a class="hvr-bounce-to-left  btn-right" href="#">learn more</a>--%>
                             </div>
                         </div>
                         <div class="slid banner3">
                             <div class="caption">
-                                <h3>Donec ut turpis sit amet enim mattis commodo velit.</h3>
-                                <p>FOURNIER Timber carefully selects from a wide range of quality hardwoods to customers exact requirements which minimises wastage.</p>
-                                <a class="hvr-bounce-to-right btn-left" href="#">Click</a>
-                                <a class="hvr-bounce-to-left  btn-right" href="#">learn more</a>
+                                <h3>Bienvenido al Hotel Paradise</h3>
+                                <p>Puede encontrar las mejores habitaciones de la peninsula de Nicoya</p>
+                                <%--<a class="hvr-bounce-to-right btn-left" href="#">Click</a>
+                                <a class="hvr-bounce-to-left  btn-right" href="#">learn more</a>--%>
                             </div>
                         </div>
                     </ul>

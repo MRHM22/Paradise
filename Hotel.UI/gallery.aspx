@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/pagmaster.Master" AutoEventWireup="true" CodeBehind="gallery.aspx.cs" Inherits="Hotel.UI.gallery" %>
+﻿<%@ Page Title="Galeria Paradise" Language="C#" MasterPageFile="~/pagmaster.Master" AutoEventWireup="true" CodeBehind="gallery.aspx.cs" Inherits="Hotel.UI.gallery" %>
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
@@ -29,7 +29,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 
     </script>
     <div class="top-banner"></div>
-    <div class="gallery">
+    <%--<div class="gallery">
         <div id="Hotel" class="container">
             <h3>Hotel</h3>
             <div class="gallery-bottom">
@@ -75,17 +75,55 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 </div>
             </div>
         </div>
-    </div>
+    </div>--%>
     <div class="gallery">
         <div id="Habitaciones" class="container">
             <h3>Habitaciones</h3>
             <div class="gallery-bottom">
                 <div class="gallery-1">
                     <div class="col-md-3 gallery-grid">
-                        <a class="example-image-link" href="images/g5.jpg" data-lightbox="example-set" data-title="Suite Deluxe Junior, cama tamaño king">
+                        <a class="example-image-link" href="images/g5.jpg" data-lightbox="example-set" data-title="Habitacion 1<%--Suite Deluxe Junior, cama tamaño king--%>">
                             <img class="example-image" src="images/g5.jpg" alt="" /></a>
-                       
-                        <!-- Modal -*->
+                    </div>
+                    <div class="col-md-3 gallery-grid">
+                        <a class="example-image-link" href="images/g6.jpg" data-lightbox="example-set" data-title="Habitacion 2">
+                            <img class="example-image" src="images/g6.jpg" alt="" /></a>
+                    </div>
+                    <div class="col-md-3 gallery-grid">
+                        <a class="example-image-link" href="images/g1.jpg" data-lightbox="example-set" data-title="Habitacion 3">
+                            <img class="example-image" src="images/g1.jpg" alt="" /></a>
+                    </div>
+                    <div class="col-md-3 gallery-grid">
+                        <a class="example-image-link" href="images/g7.jpg" data-lightbox="example-set" data-title="Habitacion 4<%--Habitación con dos recamaras--%>">
+                            <img class="example-image" src="images/g7.jpg" alt="" /></a>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="gallery-1">
+                    <div class="col-md-3 gallery-grid">
+                        <a class="example-image-link" href="images/g4.jpg" data-lightbox="example-set" data-title="Habitacion 5">
+                            <img class="example-image" src="images/g4.jpg" alt="" /></a>
+                    </div>
+                    <div class="col-md-3 gallery-grid">
+                        <a class="example-image-link" href="images/g7.jpg" data-lightbox="example-set" data-title="Habitacion 6">
+                            <img class="example-image" src="images/g7.jpg" alt="" /></a>
+                    </div>
+                    <div class="col-md-3 gallery-grid">
+                        <a class="example-image-link" href="images/g5.jpg" data-lightbox="example-set" data-title="Habitacion 7">
+                            <img class="example-image" src="images/g5.jpg" alt="" /></a>
+                    </div>
+                    <div class="col-md-3 gallery-grid">
+                        <a class="example-image-link" href="images/g2.jpg" data-lightbox="example-set" data-title="Habitacion 8">
+                            <img class="example-image" src="images/g2.jpg" alt="" /></a>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/lightbox-plus-jquery.min.js"></script>
+       <!-- Modal -*->
                         <button type="button" class="btn btn-info" data-toggle="modal" data-target="#myModal">Información</button>
                         
                         <div id="myModal" class="modal fade" role="dialog">
@@ -119,44 +157,6 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                             </div>
                         </div>
                         -->
-
-                    </div>
-                    <div class="col-md-3 gallery-grid">
-                        <a class="example-image-link" href="images/g6.jpg" data-lightbox="example-set" data-title="fsdfdsfdf">
-                            <img class="example-image" src="images/g6.jpg" alt="" /></a>
-                    </div>
-                    <div class="col-md-3 gallery-grid">
-                        <a class="example-image-link" href="images/g1.jpg" data-lightbox="example-set" data-title="fsdfdsfdf">
-                            <img class="example-image" src="images/g1.jpg" alt="" /></a>
-                    </div>
-                    <div class="col-md-3 gallery-grid">
-                        <a class="example-image-link" href="images/g7.jpg" data-lightbox="example-set" data-title="fsdfdsfdf">
-                            <img class="example-image" src="images/g7.jpg" alt="" /></a>
-                    </div>
-                    <div class="clearfix"></div>
-                </div>
-                <div class="gallery-1">
-                    <div class="col-md-3 gallery-grid">
-                        <a class="example-image-link" href="images/g4.jpg" data-lightbox="example-set" data-title="fsdfdsfdf">
-                            <img class="example-image" src="images/g4.jpg" alt="" /></a>
-                    </div>
-                    <div class="col-md-3 gallery-grid">
-                        <a class="example-image-link" href="images/g7.jpg" data-lightbox="example-set" data-title="fsdfdsfdf">
-                            <img class="example-image" src="images/g7.jpg" alt="" /></a>
-                    </div>
-                    <div class="col-md-3 gallery-grid">
-                        <a class="example-image-link" href="images/g5.jpg" data-lightbox="example-set" data-title="fsdfdsfdf">
-                            <img class="example-image" src="images/g5.jpg" alt="" /></a>
-                    </div>
-                    <div class="col-md-3 gallery-grid">
-                        <a class="example-image-link" href="images/g2.jpg" data-lightbox="example-set" data-title="fsdfdsfdf">
-                            <img class="example-image" src="images/g2.jpg" alt="" /></a>
-                    </div>
-                    <div class="clearfix"></div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <script src="js/lightbox-plus-jquery.min.js"></script>
 </asp:Content>
+
+                     
