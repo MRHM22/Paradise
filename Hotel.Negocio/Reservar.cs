@@ -10,7 +10,7 @@ namespace Hotel.Negocio
     {
         Datos.Repositorio.reservar re = new Datos.Repositorio.reservar();
 
-        public Habitacion validarCliente()
+        public List<Habitacion> Listahabitacion()
         {
             return re.listarHabitacion();
         }

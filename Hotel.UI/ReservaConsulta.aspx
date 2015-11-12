@@ -14,8 +14,15 @@
                 <h3>Reservación</h3>
             </div>
             
-            <asp:GridView ID="GridView1" runat="server" BackColor="White" BorderColor="#DEDFDE" BorderStyle="None" BorderWidth="1px" CellPadding="4" ForeColor="Black" GridLines="Vertical" DataSourceID="ObjectDataSource1">
+            <asp:GridView ID="GridView1" runat="server" BackColor="White" BorderColor="#DEDFDE" BorderStyle="None" BorderWidth="1px" CellPadding="4" ForeColor="Black" GridLines="Vertical" AutoGenerateColumns="False" DataSourceID="ObjectDataSource1" Width="389px">
                 <AlternatingRowStyle BackColor="White" />
+                <Columns>
+                    <asp:BoundField DataField="Idhabitacion" HeaderText="Idhabitacion" SortExpression="Idhabitacion" />
+                    <asp:BoundField DataField="estado" HeaderText="estado" SortExpression="estado" />
+                    <asp:BoundField DataField="tipo" HeaderText="tipo" SortExpression="tipo" />
+                    <asp:BoundField DataField="nombre" HeaderText="nombre" SortExpression="nombre" />
+                    <asp:CommandField ShowEditButton="True" />
+                </Columns>
                 <FooterStyle BackColor="#CCCC99" />
                 <HeaderStyle BackColor="#6B696B" Font-Bold="True" ForeColor="White" />
                 <PagerStyle BackColor="#F7F7DE" ForeColor="Black" HorizontalAlign="Right" />
@@ -26,7 +33,7 @@
                 <SortedDescendingCellStyle BackColor="#EAEAD3" />
                 <SortedDescendingHeaderStyle BackColor="#575357" />
             </asp:GridView>
-            <asp:ObjectDataSource ID="ObjectDataSource1" runat="server"></asp:ObjectDataSource>
+            <asp:ObjectDataSource ID="ObjectDataSource1" runat="server" SelectMethod="listarHabitacion" TypeName="Hotel.Datos.Repositorio.reservar"></asp:ObjectDataSource>
         </div>
     </div>
 </asp:Content>

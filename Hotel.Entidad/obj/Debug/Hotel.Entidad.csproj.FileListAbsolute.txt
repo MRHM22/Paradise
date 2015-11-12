@@ -11,3 +11,4 @@ C:\Users\Martín\Documents\Paradise\Hotel.Entidad\bin\Debug\Hotel.Entidad.dll
 C:\Users\Martín\Documents\Paradise\Hotel.Entidad\bin\Debug\Hotel.Entidad.pdb
 C:\Users\Martín\Documents\Paradise\Hotel.Entidad\obj\Debug\Hotel.Entidad.dll
 C:\Users\Martín\Documents\Paradise\Hotel.Entidad\obj\Debug\Hotel.Entidad.pdb
+C:\Users\Martín\Documents\Paradise\Hotel.Entidad\obj\Debug\Hotel.Entidad.csprojResolveAssemblyReference.cache

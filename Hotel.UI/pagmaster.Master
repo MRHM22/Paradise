@@ -64,10 +64,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                             <ul class="nav navbar-nav navbar-right">
                                 <li class="active"><a href="index.aspx">Home</a></li>
                                 <li><a class="scroll" href="index.aspx#services">Servicios</a></li>
-                                <li><a href="reservacion.aspx" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Reservación<span class="caret"></span></a>
+                                <li><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Reservación<span class="caret"></span></a>
                                     <ul class="dropdown-menu">
-                                        <li><a href="gallery.aspx#Hotel">Hotel</a></li>
-                                        <li><a href="gallery.aspx#Habitaciones">Habitaciones</a></li>
+                                        <li><a href="reservacion.aspx">Reservacion</a></li>
+                                        <li><a href="ReservaConsulta.aspx">Consulta</a></li>
                                     </ul>
                                 </li>
                                 <li><a href="gallery.aspx">Galeria</a></li>

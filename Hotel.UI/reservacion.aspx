@@ -19,23 +19,24 @@
             <form role="form">
                 <div class="form-group">
                     <label for="nombre">Cédula:</label>
-                    <input type="text" class="form-control" id="Cedula" placeholder="Ingrese su nombre" runat="server"/>
+                    <asp:TextBox ID="txtcedula" runat="server" placeholder="Ingrese su nombre" class="form-control"></asp:TextBox>
+                    
                 </div>
                 <div class="form-group">
                     <label for="nombre">Nombre:</label>
-                    <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre" runat="server"/>
+                    <asp:TextBox ID="TextBox1" runat="server" placeholder="Ingrese su nombre" class="form-control"></asp:TextBox>
                 </div>
                 <div class="form-group">
                     <label for="apellidos">Apellidos:</label>
-                    <input type="text" class="form-control" id="apellidos" placeholder="Ingrese sus apellidos" runat="server"/>
+                    <asp:TextBox ID="TextBox2" runat="server" placeholder="Ingrese sus apellidos" class="form-control"></asp:TextBox>
                 </div>
                 <div class="form-group">
                     <label for="email">Email:</label>
-                    <input type="email" class="form-control" id="email" placeholder="Ingrese su dirección de correo electrónico" runat="server"/>
+                    <asp:TextBox ID="TextBox3" runat="server" placeholder="Ingrese su dirección de correo electrónico" class="form-control"></asp:TextBox>
                 </div>
                 <div class="form-group">
                     <label for="telefono">Telefono:</label>
-                    <input type="number" class="form-control" id="telefono" placeholder="Ingrese su número de teléfono" runat="server"/>
+                    <asp:TextBox ID="TextBox4" runat="server" placeholder="Ingrese su número de teléfono" class="form-control"></asp:TextBox>
                 </div>
                
                 <button type="submit" class="btn btn-default">Aceptar</button>
