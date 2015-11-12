@@ -5,7 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Hola Belleza</title>
+    <title></title>
     <link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
     <!-- jQuery (necessary JavaScript plugins) -->
     <script src="js/bootstrap.js"></script>
@@ -48,7 +48,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                 <span class="icon-bar"></span>
                             </button>
                             <div class="logo">
-                                <h1><a href="index.aspx"><span class="glyphicon glyphicon-asterisk" aria-hidden="true"></span>Flooring</a></h1>
+                                <h1><a href="index.aspx"><span class="glyphicon glyphicon-asterisk" aria-hidden="true"></span>Paradise</a></h1>
                             </div>
                             <%--<form class="navbar-form navbar-left search" role="search">
                                 <div class="form-group">
@@ -65,20 +65,21 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                 <li class="active"><a href="index.aspx">Home</a></li>
                                 <li><a class="scroll" href="index.aspx#services">Servicios</a></li>
                                 <li><a href="reservacion.aspx">Reservación</a></li>
-                                <li><a href="gallery.aspx" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Galería<span class="caret"></span></a>
+                                <li><a href="gallery.aspx">Galeria</a></li>
+                                <%--<li><a href="gallery.aspx" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Galería<span class="caret"></span></a>
                                     <ul class="dropdown-menu">
                                         <li><a href="gallery.aspx#Hotel">Hotel</a></li>
                                         <li><a href="gallery.aspx#Habitaciones">Habitaciones</a></li>
                                     </ul>
-                                </li>
+                                </li>--%>
                                 <li><a href="contact.aspx">Mail</a></li>
-                                <li><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About<span class="caret"></span></a>
+                                <%--<li><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">About<span class="caret"></span></a>
                                     <ul class="dropdown-menu">
                                         <li><a href="about.aspx">about1</a></li>
                                         <li><a href="about.aspx">about2</a></li>
                                         <li><a href="about.aspx">about3</a></li>
                                     </ul>
-                                </li>
+                                </li>--%>
                             </ul>
                         </div>
                         <!-- /.navbar-collapse -->
@@ -143,8 +144,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
             <div class="container">
                 <div class="footer-grids">
                     <div class="col-md-6 ftr-grid1">
-                        <h4>About</h4>
-                        <p>Nam ac interdum dui, eget iaculis augue. Cras sagittis orci leo, quis luctus diam sollicitudin in. Nullam in convallis sem. Aliquam erat felis, iaculis ac semper et, congue feugiat nibh. Nullam commodo fermentum venenatis.</p>
+                        <h4>Sobre Nosotros</h4>
+                        <p>Somos una cadena de hoteles que queremos expandirnos alrededor de nuestra peninsula Guanacasteca, También encuentranos en:</p>
                         <div class="social">
                             <ul>
                                 <li><a href="#"><i class="facebok"></i></a></li>
@@ -156,13 +157,13 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                         </div>
                     </div>
                     <div class="col-md-6 news-ltr">
-                        <h4>Newsletter</h4>
+                        <%--<h4>Newsletter</h4>
                         <p>Aenean sagittis est eget elit pulvinar cursus. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus non purus at risus consequat finibus.</p>
                         <form>
                             <input type="text" class="text" value="Enter Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Enter Email';}" />
                             <input type="submit" value="Subscribe" />
                             <div class="clearfix"></div>
-                        </form>
+                        </form>--%>
                     </div>
                     <div class="clearfix"></div>
                 </div>
@@ -170,7 +171,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
         </div>
         <div class="copywrite">
             <div class="container">
-                <p>© 2015 Flooring. All rights reserved | Design by <a href="http://w3layouts.com/">W3layouts</a></p>
+                <p>© 2015 Paradise. All rights reserved | Design by <a href="http://w3layouts.com/">W3layouts</a></p>
             </div>
         </div>
         <!---->

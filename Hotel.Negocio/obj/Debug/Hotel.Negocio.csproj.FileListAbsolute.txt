@@ -16,3 +16,12 @@ C:\Users\MjCv\Source\Repos\Paradise\Hotel.Negocio\bin\Debug\Hotel.Entidad.pdb
 C:\Users\MjCv\Source\Repos\Paradise\Hotel.Negocio\obj\Debug\Hotel.Negocio.csprojResolveAssemblyReference.cache
 C:\Users\MjCv\Source\Repos\Paradise\Hotel.Negocio\obj\Debug\Hotel.Negocio.dll
 C:\Users\MjCv\Source\Repos\Paradise\Hotel.Negocio\obj\Debug\Hotel.Negocio.pdb
+C:\Users\Martín\Documents\Paradise\Hotel.Negocio\bin\Debug\Hotel.Negocio.dll
+C:\Users\Martín\Documents\Paradise\Hotel.Negocio\bin\Debug\Hotel.Negocio.pdb
+C:\Users\Martín\Documents\Paradise\Hotel.Negocio\bin\Debug\Hotel.Datos.dll
+C:\Users\Martín\Documents\Paradise\Hotel.Negocio\bin\Debug\Hotel.Entidad.dll
+C:\Users\Martín\Documents\Paradise\Hotel.Negocio\bin\Debug\Hotel.Datos.pdb
+C:\Users\Martín\Documents\Paradise\Hotel.Negocio\bin\Debug\Hotel.Entidad.pdb
+C:\Users\Martín\Documents\Paradise\Hotel.Negocio\obj\Debug\Hotel.Negocio.csprojResolveAssemblyReference.cache
+C:\Users\Martín\Documents\Paradise\Hotel.Negocio\obj\Debug\Hotel.Negocio.dll
+C:\Users\Martín\Documents\Paradise\Hotel.Negocio\obj\Debug\Hotel.Negocio.pdb
