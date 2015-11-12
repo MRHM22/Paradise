@@ -30,17 +30,17 @@
 			    	<form accept-charset="UTF-8" role="form">
                     <fieldset>
 			    	  	<div class="form-group">
-			    		    <input class="form-control" placeholder="E-mail" name="email" type="text"/>
+                             <asp:TextBox runat="server" id="user" class="form-control" placeholder="E-mail" name="email" type="text"> </asp:TextBox>
 			    		</div>
 			    		<div class="form-group">
-			    			<input class="form-control" placeholder="Password" name="password" type="password" value=""/>
+                            <asp:TextBox class="form-control" placeholder="Password" name="password" type="password" value="" runat="server" id="pass"></asp:TextBox>
 			    		</div>
 			    		<%--<div class="checkbox">
 			    	    	<label>
 			    	    		<input name="remember" type="checkbox" value="Remember Me"/> Remember Me
 			    	    	</label>
 			    	    </div>--%>
-			    		<input class="btn btn-lg btn-success btn-block" type="submit" value="Login"/>
+                        <asp:Button class="btn btn-lg btn-success btn-block" type="submit" id="BtnLogin" runat="server" OnClick="BtnLogin_Click"/>
 			    	</fieldset>
 			      	</form>
 			    </div>
