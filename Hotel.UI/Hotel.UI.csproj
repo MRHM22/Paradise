@@ -122,6 +122,7 @@
     <Content Include="js\transition.js" />
     <Content Include="Login.aspx" />
     <Content Include="reservacion.aspx" />
+    <Content Include="ReservaConsulta.aspx" />
     <Content Include="typo.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -175,6 +176,13 @@
     </Compile>
     <Compile Include="reservacion.aspx.designer.cs">
       <DependentUpon>reservacion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ReservaConsulta.aspx.cs">
+      <DependentUpon>ReservaConsulta.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ReservaConsulta.aspx.designer.cs">
+      <DependentUpon>ReservaConsulta.aspx</DependentUpon>
     </Compile>
     <Compile Include="typo.aspx.cs">
       <DependentUpon>typo.aspx</DependentUpon>

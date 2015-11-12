@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/pagmaster.Master" AutoEventWireup="true" CodeBehind="reservacion.aspx.cs" Inherits="Hotel.UI.reservacion" %>
+﻿<%@ Page Title="Reservaciones" Language="C#" MasterPageFile="~/pagmaster.Master" AutoEventWireup="true" CodeBehind="reservacion.aspx.cs" Inherits="Hotel.UI.reservacion" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
 </asp:Content>
@@ -18,20 +18,24 @@
             </div>
             <form role="form">
                 <div class="form-group">
+                    <label for="nombre">Cédula:</label>
+                    <input type="text" class="form-control" id="Cedula" placeholder="Ingrese su nombre" runat="server"/>
+                </div>
+                <div class="form-group">
                     <label for="nombre">Nombre:</label>
-                    <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre">
+                    <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre" runat="server"/>
                 </div>
                 <div class="form-group">
                     <label for="apellidos">Apellidos:</label>
-                    <input type="text" class="form-control" id="apellidos" placeholder="Ingrese sus apellidos">
+                    <input type="text" class="form-control" id="apellidos" placeholder="Ingrese sus apellidos" runat="server"/>
                 </div>
                 <div class="form-group">
                     <label for="email">Email:</label>
-                    <input type="email" class="form-control" id="email" placeholder="Ingrese su dirección de correo electrónico">
+                    <input type="email" class="form-control" id="email" placeholder="Ingrese su dirección de correo electrónico" runat="server"/>
                 </div>
                 <div class="form-group">
                     <label for="telefono">Telefono:</label>
-                    <input type="number" class="form-control" id="telefono" placeholder="Ingrese su número de teléfono">
+                    <input type="number" class="form-control" id="telefono" placeholder="Ingrese su número de teléfono" runat="server"/>
                 </div>
                
                 <button type="submit" class="btn btn-default">Aceptar</button>

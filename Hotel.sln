@@ -14,6 +14,7 @@ EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Hotel.db", "Hotel.db", "{C95C5105-053F-41EA-A285-1589BE25D24A}"
 	ProjectSection(SolutionItems) = preProject
 		..\script.sql = ..\script.sql
+		SqlQuery_1.sql = SqlQuery_1.sql
 	EndProjectSection
 EndProject
 Global

@@ -15,7 +15,7 @@ namespace Hotel.UI
             
         }
 
-        protected void BtnLogin_Click(object sender, EventArgs e)
+        protected void BtnLogin_Click1(object sender, EventArgs e)
         {
             Entidad.Empleado empleado = new Empleado();
             Negocio.Login login = new Negocio.Login();
