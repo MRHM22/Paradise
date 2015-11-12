@@ -8,5 +8,11 @@ namespace Hotel.Negocio
 {
     public class Reservar
     {
+        Datos.Repositorio.reservar re = new Datos.Repositorio.reservar();
+
+        public Habitacion validarCliente()
+        {
+            return re.listarHabitacion();
+        }
     }
 }

@@ -21,7 +21,7 @@ namespace Hotel.Datos.Repositorio
             conn = new SqlConnection(miConn.getConexion());
         }
 
-        public List<Habitacion> listarCliente()
+        public List<Habitacion> listarHabitacion()
         {
             List<Habitacion> entidad = new List<Habitacion>();
             // DataSet dst = new DataSet();
