@@ -54,5 +54,27 @@ namespace Hotel.Datos.Repositorio
             return entidad;
         }
 
+        public bool reservar(Alquiler entidad)
+        {
+            bool realizado = false;
+            cmd.Connection = conn;
+            cmd.CommandType = CommandType.StoredProcedure;
+            cmd.CommandText = "reservar";
+            try
+            {
+                cmd.Parameters.Add(new SqlParameter("@IdHab", SqlDbType.Int)).Value = entidad.Idhabitacion;
+                cmd.Parameters.Add(new SqlParameter("@IdClie", SqlDbType.Int)).Value = entidad.Idcliente;
+                if (conn.State == ConnectionState.Closed) conn.Open();
+                cmd.ExecuteNonQuery();
+                if (conn.State == ConnectionState.Open) conn.Close();
+                realizado = true;
+            }
+            catch (SqlException)
+            {
+                realizado = false;
+            }
+            return realizado;
+        }
+
     }
 }

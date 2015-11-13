@@ -13,5 +13,26 @@ namespace Hotel.UI
         {
 
         }
+
+        protected void seleccionar(object sender, EventArgs e)
+        {
+
+            Entidad.Alquiler al = new Entidad.Alquiler();
+            Negocio.Reservar re = new Negocio.Reservar();
+
+            String n = GridView1.SelectedRow.Cells[0].Text;
+            String est = GridView1.SelectedRow.Cells[1].Text;
+            if(est=="Ocupada")
+            {
+                Response.Write("<script>alert('Habitación ocupada')</script>");
+            }
+            else
+            {
+                al.Idhabitacion = Convert.ToInt32(n);
+                al.Idcliente = Convert.ToInt32(txtcedula.Text);
+                re.reservar(al);
+            }
+            
+        }
     }
 }
