@@ -54,7 +54,7 @@ namespace Hotel.Datos.Repositorio
             return entidad;
         }
 
-        public bool reservar(Alquiler entidad)
+        public bool reservacion(Alquiler entidad)
         {
             bool realizado = false;
             cmd.Connection = conn;

@@ -28,9 +28,16 @@ namespace Hotel.UI
             }
             else
             {
-                al.Idhabitacion = Convert.ToInt32(n);
-                al.Idcliente = Convert.ToInt32(txtcedula.Text);
-                re.reservar(al);
+                if (txtcedula.Text == null)
+                {
+                    Response.Write("<script>alert('Ingrese la cedula por favor')</script>");
+                }
+                else
+                {
+                    al.Idhabitacion = Convert.ToInt32(n);
+                    al.Idcliente = Convert.ToInt32(txtcedula.Text);
+                    re.reservacion(al);
+                }
             }
             
         }

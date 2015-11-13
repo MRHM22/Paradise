@@ -14,7 +14,9 @@
                 <h3>Consulta - Reservación</h3>
             </div>
             <div class="row">
-                <asp:TextBox ID="txtcedula" runat="server" placeholder="Ingrese su Cedula" class="form-control col-md-4"></asp:TextBox>
+                <div class="col-md-4">
+                    <asp:TextBox ID="txtcedula" runat="server" placeholder="Ingrese su Cedula" class="form-control col-md-4"></asp:TextBox>
+                </div>
             </div>
             <div class="row">
                 
