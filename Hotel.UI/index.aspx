@@ -47,12 +47,12 @@
                     <img src="images/w1.jpg" class="img-responsive" alt="" />
                 </div>
                 <div class="col-md-6 content-right">
-                    <h2>Titulo.</h2>
+                    <h2>Hotel Paradise.</h2>
                     <p>
-                    funciona vamos 
- 		    </p>
-                    <p>Maecenas eget magna volutpat, tincidunt urna id, imperdiet mi. Suspendisse dignissim eros sit amet nulla faucibus tristique quis ac libero.Vestibulum molestie maximus felis, rhoncus dignissim metus.</p>
-                </div>
+                    Ven disfruta y relajate 
+                    </p>
+                    <p>Cada aspecto de Paradise es cuidadosamente seleccionado para crear una conexión emocional con los huéspedes. Nuestra Bienvenida Sensory lo aguarda con una iluminación cálida, bellos arreglos florales, música exclusiva y la esencia relajante del té blanco.</p>
+                 </div>
                 <div class="clearfix"></div>
             </div>
         </div>
@@ -67,30 +67,30 @@
     <div id="services" class="services">
         <div class="container">
             <div class="service-info">
-                <h3>Services</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vel risus non mauris volutpat pellentesque. Sed rhoncus, arcu nec euismod ultrices tellus nulla varius tellus ac blandit nunc ex vel felis pellentesque imperdiet imperdiet nibh</p>
+                <h3>Servicios</h3>
+                <p>Nuestro hotel ofrece una gran cantidad de productos y servicios, entre los cuales tenemos:</p>
             </div>
             <div class="specialty-grids-top">
                 <div class="col-md-4 service-box" style="visibility: visible; -webkit-animation-delay: 0.4s;">
                     <figure class="icon">
                         <span class="glyphicon3 glyphicon-home" aria-hidden="true"></span>
                     </figure>
-                    <h5>Proin eget ipsum ultrices</h5>
-                    <p>Sed ut perspiciis iste natus error sit voluptatem accusantium doloremque laudantium elerisque ipsum vehicula pharetra laoreet.</p>
+                    <h5>Cabañas</h5>
+                    <p>Si desea un lugar en donde disfrutar de mayor privacidad pero con igual comodidad, le ofrecemos servicios de cabaña, localizados en senderos de paísajes amenos en donde relajarse y disfrutar.</p>
                 </div>
                 <div class="col-md-4 service-box wow bounceIn animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s;">
                     <figure class="icon">
                         <span class="glyphicon3 glyphicon-time" aria-hidden="true"></span>
                     </figure>
-                    <h5>Proin eget ipsum ultrices</h5>
-                    <p>Sed ut perspiciis iste natus error sit voluptatem accusantium doloremque laudantium elerisque ipsum vehicula pharetra laoreet.</p>
+                    <h5>Servicios 24/7</h5>
+                    <p>Ofreces servicios de huespedes, alimentación y farmacia las 24 horas del día, los 7 días de la semana.</p>
                 </div>
                 <div class="col-md-4 service-box wow bounceIn animated" data-wow-delay="0.4s" style="visibility: visible; -webkit-animation-delay: 0.4s;">
                     <figure class="icon">
                         <span class="glyphicon3 glyphicon-edit" aria-hidden="true"></span>
                     </figure>
-                    <h5>Proin eget ipsum ultrices</h5>
-                    <p>Sed ut perspiciis iste natus error sit voluptatem accusantium doloremque laudantium elerisque ipsum vehicula pharetra laoreet.</p>
+                    <h5>Actividades</h5>
+                    <p>Contamos con diversas actividades programadas para toda la familia, de las cuales pueden participar si así lo desean.</p>
                 </div>
                 <div class="clearfix"></div>
             </div>
@@ -130,8 +130,7 @@
                             <div class="testimonial-right">
                                 <h5>Mary Wilson</h5>
                                 <p>
-                                    <span>"</span> Lorem ipsum dolor sit amet consec tetuer adi piscing elit Praesent vestibulum 
-											molestie lacus consec tetuer piscing voluptatem accusantium doloremque laudantium elerisque ipsum vehicula pharetra elit Praesent vestibulum lacus<span>"</span>
+                                    <span>"</span>Fundadores<span>"</span>
                                 </p>
                             </div>
                             <div class="clearfix"></div>
@@ -145,8 +144,7 @@
                             <div class="testimonial-right">
                                 <h5>David Smith</h5>
                                 <p>
-                                    <span>"</span> Lorem ipsum dolor sit amet consec tetuer adi piscing elit Praesent vestibulum 
-											molestie lacus consec tetuer piscing voluptatem accusantium doloremque laudantium elerisque ipsum vehicula pharetra elit Praesent vestibulum lacus<span>"</span>
+                                    <span>"</span> Fundadores<span>"</span>
                                 </p>
                             </div>
                             <div class="clearfix"></div>
@@ -160,8 +158,7 @@
                             <div class="testimonial-right">
                                 <h5>Lora  Alance</h5>
                                 <p>
-                                    <span>"</span> Lorem ipsum dolor sit amet consec tetuer adi piscing elit Praesent vestibulum 
-											molestie lacus consec tetuer piscing voluptatem accusantium doloremque laudantium elerisque ipsum vehicula pharetra elit Praesent vestibulum lacus<span>"</span>
+                                    <span>"</span>Fundadores<span>"</span>
                                 </p>
                             </div>
                             <div class="clearfix"></div>
@@ -172,58 +169,5 @@
         </div>
     </div>
 
-    <!-- projects -->
-    <div class="projects">
-        <div class="container">
-            <div class="projects-info">
-                <h3>Our Projects</h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer vel risus non mauris volutpat pellentesque. Sed rhoncus, arcu nec euismod ultrices tellus nulla varius tellus ac blandit nunc ex vel felis pellentesque imperdiet imperdiet nibh</p>
-            </div>
-            <div class="event-grids">
-                <div class="col-md-4 event-grid-sec">
-                    <div class="event-time text-center">
-                        <p>03/2015</p>
-                    </div>
-                    <div class="event-grid_pic">
-                        <img src="images/pc.jpg" alt="" />
-                        <h3><a href="#">Morbi pellentesque urna scelerisque justo rutrum.</a></h3>
-                        <p>
-                            Nullam placerat aliquet nisl id finibus. Nulla mollis mattis magna in hendrerit. Pellentesque nunc nisl, dapibus eget erat non,
-					 sagittis accumsan dolor.
-                        </p>
-                        <div class="more"><a href="single.aspx">> Read More</a></div>
-                    </div>
-                </div>
-                <div class="col-md-4 event-grid-sec">
-                    <div class="event-time text-center">
-                        <p>02/2015</p>
-                    </div>
-                    <div class="event-grid_pic">
-                        <img src="images/pc1.jpg" alt="" />
-                        <h3><a href="#">Morbi pellentesque urna scelerisque justo rutrum.</a></h3>
-                        <p>
-                            Nullam placerat aliquet nisl id finibus. Nulla mollis mattis magna in hendrerit. Pellentesque nunc nisl, dapibus eget erat non,
-					 sagittis accumsan dolor.
-                        </p>
-                        <div class="more"><a href="single.aspx">> Read More</a></div>
-                    </div>
-                </div>
-                <div class="col-md-4 event-grid-sec">
-                    <div class="event-time text-center">
-                        <p>04/2015</p>
-                    </div>
-                    <div class="event-grid_pic">
-                        <img src="images/pc2.jpg" alt="" />
-                        <h3><a href="#">Morbi pellentesque urna scelerisque justo rutrum.</a></h3>
-                        <p>
-                            Nullam placerat aliquet nisl id finibus. Nulla mollis mattis magna in hendrerit. Pellentesque nunc nisl, dapibus eget erat non,
-					 sagittis accumsan dolor.
-                        </p>
-                        <div class="more"><a href="single.aspx">> Read More</a></div>
-                    </div>
-                </div>
-                <div class="clearfix"></div>
-            </div>
-        </div>
-    </div>
+    
 </asp:Content>

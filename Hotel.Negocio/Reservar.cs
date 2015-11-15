@@ -14,5 +14,9 @@ namespace Hotel.Negocio
         {
             return re.listarHabitacion();
         }
+        public bool reservacion(Alquiler cliNegocio)
+        {
+            return re.reservacion(cliNegocio);
+        }
     }
 }
