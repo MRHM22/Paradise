@@ -43,3 +43,15 @@ C:\Users\Martín\Documents\Paradise\Hotel.UI\bin\Hotel.Datos.pdb
 C:\Users\Martín\Documents\Paradise\Hotel.UI\obj\Debug\Hotel.UI.csprojResolveAssemblyReference.cache
 C:\Users\Martín\Documents\Paradise\Hotel.UI\obj\Debug\Hotel.UI.dll
 C:\Users\Martín\Documents\Paradise\Hotel.UI\obj\Debug\Hotel.UI.pdb
+C:\Users\MjCv\Documents\Paradise\Hotel.UI\bin\Hotel.UI.dll.config
+C:\Users\MjCv\Documents\Paradise\Hotel.UI\bin\Hotel.UI.dll
+C:\Users\MjCv\Documents\Paradise\Hotel.UI\bin\Hotel.UI.pdb
+C:\Users\MjCv\Documents\Paradise\Hotel.UI\bin\Hotel.Entidad.dll
+C:\Users\MjCv\Documents\Paradise\Hotel.UI\bin\Hotel.Negocio.dll
+C:\Users\MjCv\Documents\Paradise\Hotel.UI\bin\Hotel.Datos.dll
+C:\Users\MjCv\Documents\Paradise\Hotel.UI\bin\Hotel.Entidad.pdb
+C:\Users\MjCv\Documents\Paradise\Hotel.UI\bin\Hotel.Negocio.pdb
+C:\Users\MjCv\Documents\Paradise\Hotel.UI\bin\Hotel.Datos.pdb
+C:\Users\MjCv\Documents\Paradise\Hotel.UI\obj\Debug\Hotel.UI.csprojResolveAssemblyReference.cache
+C:\Users\MjCv\Documents\Paradise\Hotel.UI\obj\Debug\Hotel.UI.dll
+C:\Users\MjCv\Documents\Paradise\Hotel.UI\obj\Debug\Hotel.UI.pdb
